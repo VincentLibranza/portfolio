@@ -29,13 +29,13 @@ body.dark {
 	color: #f5f5f5;
 }
 body {
-	background-image: url(background 1);
+	background-image: url(background 1.jpg);
 	background-size: cover;
 	background-position: center;
 }
 
 .header {
-    background: url(background 1) no-repeat center/cover;
+    background: url(background 1.jpg) no-repeat center/cover;
 }
 
 
