@@ -29,7 +29,6 @@ body.dark {
 	color: #f5f5f5;
 }
 header {
-    header {
     background-image: url("images/bg1.jpg");
     background-size: cover;
     background-position: center;
@@ -44,7 +43,4 @@ header {
     position: relative;
     color: white;
 }
-
-}
-
 
