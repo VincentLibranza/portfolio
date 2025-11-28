@@ -28,3 +28,14 @@ body.dark {
 	background-color: #121212;
 	color: #f5f5f5;
 }
+body {
+	background-image: url(background 1);
+	background-size: cover;
+	background-position: center;
+}
+
+.header {
+    background: url("images/banner.png") no-repeat center/cover;
+}
+
+
