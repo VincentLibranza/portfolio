@@ -2,7 +2,6 @@
 body {
     font-family: Arial, sans-serif;
     
-    /* Background GIF Setup */
     background-image: url('background.gif'); 
     background-size: cover;
     background-attachment: fixed;
@@ -53,13 +52,24 @@ ul {
 
 li {
     margin-bottom: 10px;
+    line-height: 1.5;
 }
 
 a {
 
-    word-break: break-word; 
-    overflow-wrap: break-word;
+    word-break: break-all; 
+
+    overflow-wrap: anywhere; 
+    
     display: inline-block;
+    max-width: 100%; 
+
+    color: #007bff; 
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 /* Dark Theme */
@@ -71,6 +81,10 @@ body.dark {
 body.dark header, 
 body.dark section {
     background-color: rgba(0, 0, 0, 0.7);
+}
+
+body.dark a {
+    color: #4da3ff;
 }
 
 @media (max-width: 600px) {
