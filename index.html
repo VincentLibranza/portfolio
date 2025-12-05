@@ -5,9 +5,31 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>Student Portfolio</title>
       <link rel="stylesheet" href="style.css">
+      <!-- Optional: Small inline style to make the tabs look good immediately -->
+      <style>
+         nav a {
+            margin: 0 10px;
+            text-decoration: none;
+            font-weight: bold;
+            color: #333; /* Change this color to match your theme */
+         }
+         nav a:hover {
+            text-decoration: underline;
+         }
+      </style>
    </head>
    <body>
       <header>
+         <!-- NEW: Navigation Tabs -->
+         <nav>
+            <a href="#achievements">Achievements</a>
+            <a href="#projects">Projects List</a>
+            <!-- This is the direct Tab to the new link -->
+            <a href="https://vincentlibranza.github.io/greensense_portfolio/#signup" target="_blank">GreenSense Project</a>
+         </nav>
+         
+         <br>
+
          <h1 id="name">Vincent Jon Libranza</h1>
          <img src="profile1.jpg" alt="Profile Picture" id="profile-img">
          <p id="course-year">BS - Information Systems - 2nd Year</p>
@@ -18,18 +40,23 @@
          <h2>Achievements/Certifications</h2>
          <ul>
             <li>Coursera Introduction to Programming With C#</li>
-            <li><a href="https://www.coursera.org/account/accomplishments/verify/OBE6TGGP92F4" target="_blank">https://www.coursera.org/account/accomplishments/verify/OBE6TGGP92F4</a></li>
+            <li><a href="https://www.coursera.org/account/accomplishments/verify/OBE6TGGP92F4" target="_blank">View Certificate</a></li>
             
             <li>Coursera Introduction to User Experience Design</li>
-            <li><a href="https://www.coursera.org/account/accomplishments/verify/239HZTU4X319" target="_blank">https://www.coursera.org/account/accomplishments/verify/239HZTU4X319</a></li>
+            <li><a href="https://www.coursera.org/account/accomplishments/verify/239HZTU4X319" target="_blank">View Certificate</a></li>
          </ul>
       </section>
 
       <section id="projects">
-         <h2>Previous Projects</h2>
+         <h2>Projects</h2>
          <ul>
-            <li>SHELFAWARE - Object Oriented Programming</li> <!-- Added missing closing </li> -->
+            <li>SHELFAWARE - Object Oriented Programming</li>
             <li>LibraryPal - Computer Programming Concepts 2</li>
+            
+            <li>
+               <strong>GreenSense:</strong> 
+               <a href="https://vincentlibranza.github.io/greensense_portfolio/#signup" target="_blank">https://vincentlibranza.github.io/greensense_portfolio/#signup</a>
+            </li>
          </ul>
       </section>
       
