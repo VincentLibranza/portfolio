@@ -1,7 +1,8 @@
 /* Default Light Theme */
 body {
     font-family: Arial, sans-serif;
-
+    
+    /* Background GIF Setup */
     background-image: url('background.gif'); 
     background-size: cover;
     background-attachment: fixed;
@@ -12,15 +13,17 @@ body {
     color: #333;
     margin: 0;
     padding: 20px;
+    box-sizing: border-box;
 }
 
 header {
     text-align: center;
     margin-bottom: 30px;
-    
     background-color: rgba(255, 255, 255, 0.85); 
     padding: 20px;
     border-radius: 15px;
+    max-width: 100%; 
+    box-sizing: border-box;
 }
 
 section {
@@ -28,17 +31,35 @@ section {
     padding: 20px;
     border-radius: 15px;
     margin-bottom: 20px;
+    max-width: 100%;
+    box-sizing: border-box;
 }
 
 #profile-img {
     width: 150px;
     border-radius: 50%;
+    max-width: 100%;
 }
 
 button {
     padding: 10px 20px;
     margin-top: 10px;
     cursor: pointer;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+a {
+
+    word-break: break-word; 
+    overflow-wrap: break-word;
+    display: inline-block;
 }
 
 /* Dark Theme */
@@ -50,4 +71,19 @@ body.dark {
 body.dark header, 
 body.dark section {
     background-color: rgba(0, 0, 0, 0.7);
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    header, section {
+        padding: 15px;
+        width: 100%;
+    }
+    
+    h1 {
+        font-size: 1.5rem;
+    }
 }
